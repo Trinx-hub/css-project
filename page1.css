@@ -8,11 +8,13 @@ body {
 
 .card {
     width: 300px;
+    padding: 10px;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* trying to replicate using the example provided in the google document*/
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.8); /* trying to replicate using the example provided in the google document*/
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .card img {
@@ -44,6 +46,7 @@ h2 {
 
 .date {
     margin-top: 5px;
+    font-size: 15px;
 }
 
 .button {
@@ -52,8 +55,9 @@ h2 {
     margin: 10px auto; /* auto is used to accomodate automatically for the parent */
     text-align: center;
     font-weight: bold;
-    background: rgb(245, 245, 57);
-    font-weight: black;
+    background: #f5c542;
+    font-size: 20px;
+    color: white;
     padding: 12px;
     text-decoration: none;
     border: none;
